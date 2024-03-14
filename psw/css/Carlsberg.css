@@ -1,0 +1,41 @@
+/* Carlsberg  Cascading Style Sheet  */
+
+.CarlsbergPageBODY { font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px; }
+
+.CarlsbergFormTABLE{ border : solid 1px #000000;  font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px; }
+
+.CarlsbergFormHeaderFont{ color : #000000; font-size : 16px; font-weight : bold;  font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px; }
+
+.CarlsbergColumnTD { color : #504C43; background-color : #E5E1D7;  font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px;  }
+
+.CarlsbergFieldCaptionTD { background-color : #EBE9E5; color : #726C5D;  font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px;  }
+
+.CarlsbergDataTD { background-color : #EFEFEF; color : #000000;  font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px;  }
+
+.CarlsbergError { font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px; }
+
+a.CarlsbergDataLink:link,a.CarlsbergDataLink:visited{ color : #504C43;  font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px;  text-decoration : underline; }
+
+a.CarlsbergDataLink:hover,a.CarlsbergDataLink:active{ color : #000000;  font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px;  text-decoration : none; }
+
+/* Those ones are for the form elements */
+
+.CarlsbergButton { border : solid 1px #000000; background-color : #EFEFEF; font-size : 13px; font-family : Tahoma, Verdana, Arial, Helvetica; }
+
+.CarlsbergLinkButton { border : solid 1px #000000; background-color : #EFEFEF; font-size : 13px; font-family : Tahoma, Verdana, Arial, Helvetica; }
+
+.CarlsbergSmallButton { border-left : 1px solid #FFFFFF; border-right : 1px solid #000000; border-top : 1px solid #FFFFFF; border-bottom : 1px solid #000000; background-color : #EFEFEF; color : #000000; font-size : 8px; font-family : Tahoma, Verdana, Arial, Helvetica; font-weight : bolder; }
+
+.CarlsbergInput { border : solid 1px #000000; background-color : #FFFFFF; font-size : 13px; font-family : Tahoma, Verdana, Arial, Helvetica; }
+
+.CarlsbergTextarea { border : solid 1px #000000; background-color : #FFFFFF; font-size : 13px; font-family : Tahoma, Verdana, Arial, Helvetica; }
+
+.CarlsbergSelect { font-size : 13px; font-family : Tahoma, Verdana, Arial, Helvetica; }
+
+/* Others */
+
+.CarlsbergSomethingBright {background-color: #dfdf04; font-size : 13px; color:#0000ff; font-family : Tahoma, Verdana, Arial, Helvetica; }
+
+
+.CarlsbergWhiteOnBlack { font-family : Tahoma, Verdana, Arial, Helvetica; font-size : 13px; background-color : #000000; color : #ffffff;}
+

@@ -1,0 +1,43 @@
+/* Corona Cascading Style Sheet */
+
+/* Author Bulent Tezcan   bulent@greenpepper.ca */
+
+.CoronaPageBODY{ font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; }
+
+.CoronaFormTABLE{ background-color : #09529A;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; }
+
+.CoronaFormHeaderFont{ color : #cccc00; font-size : 16px; font-weight : bold;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.CoronaColumnTD { color : #000000; background-color : #cccc00;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px;  font-weight : bold; }
+
+.CoronaFieldCaptionTD { color : #000000; background-color : #D9DCC5;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px;  }
+
+.CoronaDataTD{ color : #000000; background-color : #FFFFFF;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px;  }
+
+.CoronaError { background-color : #FFFFFF; color : #cc0000;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px;  text-align:center; }
+
+a.CoronaDataLink:link,a.CoronaDataLink:visited{ color : #09529A; text-decoration : none;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+a.CoronaDataLink:hover,a.CoronaDataLink:active{ color : #cc0000; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+/* Those ones are for the Paging class */
+
+.CoronaPagingCurrentPage { font-weight : bold; color: #ffffff; font-size : 14px; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+a.CoronaPagingLink:link,a.CoronaPagingLink:visited{ color : #ffffff; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+a.CoronaPagingLink:hover,a.CoronaPagingLink:active{ color : #F5D3CE; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+/* Those ones are for the form elements */
+
+.CoronaButton { border : 1px double #000000; background-color : #F5ECCE; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.CoronaLinkButton { border : 1px double #000000; background-color : #F5ECCE; font-family : Arial, Tahoma, Verdana, Helvetica; text-decoration : none; color:#000000;}
+
+.CoronaSmallButton { border-left : 1px solid #FFFFFF; border-right : 1px solid #000000; border-top : 1px solid #FFFFFF; border-bottom : 1px solid #000000; background-color : #F5ECCE; color : #000000; font-size : 8px; font-family : Tahoma, Verdana, Arial, Helvetica; font-weight : bolder; }
+
+.CoronaInput { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.CoronaTextarea { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.CoronaSelect { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; }

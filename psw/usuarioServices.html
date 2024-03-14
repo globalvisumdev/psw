@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+
+    <link rel="stylesheet noopener" href="usuarioServices.css">
+
+    <!-- iconos -->
+    <script src="../../modulos/fontawesome-free-6.1.1-web/js/all.js"></script>
+
+    <!-- animaciones -->
+    <link rel="stylesheet noopener" href="../../modulos/animateCSS/animate.min.css" />
+
+    <link rel="stylesheet noopener" href="../../modulos/closeButton/closeButton.css">
+
+
+    <title>Servicios</title>
+</head>
+<style>
+    body{
+        overflow-x: hidden;
+    }
+    .circCont{
+        z-index: 10;
+    }
+
+</style>
+
+<body>
+    <!-- <div class="containerLoadPage animate__animated animate__fadeInLeft" id="onLoad"></div> -->
+
+    <section class="service-section hidden animate__animated animate__faster" id="contenido">
+        <div class="contenedor ">
+            <div class="circCont">
+                <button class="circle boxShadow" data-animation="fadeOut" data-remove="3000" onclick="redirect('../../index.php')"></button>
+            </div>
+            <div class="row">
+                <div class="header-section">
+                    <h2 class="title">Administrar <span>Seguridad</span></h2>
+                </div>
+            </div>
+            <div class="row" id="servicesRow">
+       
+            </div>
+        </div>
+    </section>
+
+
+<script src="../../modulos/darkMode/darkMode.js"></script>
+
+<script>
+    const iconos = {
+        "Creación de Nuevo Usuario" : "fa-user",
+        "Lista de Usuarios" : "fa-list",
+        "Usuarios y Permisos" : "fa-screwdriver-wrench",
+        "Lista de Grupos" : "fa-people-group",
+        "Grupo de Usuarios y Permisos" : "fa-users-between-lines",
+        "Acciones" : "fa-gear",
+        "Actividades" : "fa-gear",
+        "Configuración" : "fa-gear",
+        "Ver Log" : "fa-book",
+        "Lista de usuarios y Permisos" : "fa-rectangle-list",
+        "Permisos Eventuales por usuario" : "fa-hourglass",
+        "Permisos Eventuales por grupo" : "fa-hourglass",
+        "MD5" : "fa-gear",
+    }
+
+    function crearServicio(servicios){
+        let servicesRow = document.getElementById("servicesRow");
+        servicesRow.innerHTML = "";
+
+        for (let j = 0; j < servicios.length; j++) {
+            
+            let serviceColumn = document.createElement("div");
+            serviceColumn.classList.add("service-column");
+    
+            let singleService = document.createElement("div");
+            singleService.classList.add("single-service");
+            singleService.setAttribute("onclick", `redirect('${servicios[j]['url']}')`);
+            serviceColumn.appendChild(singleService);
+    
+            let content = document.createElement("div");
+            content.classList.add("content");
+            singleService.appendChild(content);
+    
+            let icon = document.createElement("span");
+            icon.classList.add("icon");
+            content.appendChild(icon);
+            
+            let i = document.createElement("i");
+            i.classList.add("fa-solid");
+            let iconClass = servicios[j]['title']
+            i.classList.add(iconos[iconClass]);
+            icon.appendChild(i);
+    
+            let title = document.createElement("h3");
+            title.classList.add("main-title");
+            title.innerHTML = servicios[j]['title'];
+            content.appendChild(title);
+    
+            let circle = document.createElement("span");
+            circle.classList.add("circle-before");
+            singleService.appendChild(circle);
+    
+            let number = document.createElement("h1");
+            number.innerHTML = j<9 ? "0" + (j+1) : (j+1);
+            circle.appendChild(number);
+            
+            servicesRow.appendChild(serviceColumn);
+        }
+    }
+
+    function cargarServicios(){
+
+        fetch("usuarioServices_cmd.php",{
+        method:'POST',
+        headers:{
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: `cmd=cargarServicios`
+        })
+        .then( peticion => peticion.json() )
+        .then( res=>{
+            if (res.redirectPage) {
+                redirect(res.redirectPage);
+                 return
+            }
+            if(res.ok){
+                crearServicio(res.data);
+            }
+        })
+        
+    }
+
+    // window.addEventListener('load', () => {
+    //     //opcional para agregarle tiempo de carga
+    //     setTimeout(carga, 2000);
+
+    //     function carga() {
+
+    //         let onLoad = document.getElementById("onLoad");
+    //         let contenido = document.getElementById("contenido");
+
+    //         onLoad.classList.remove('animate__fadeInLeft');
+    //         onLoad.classList.add('animate__fadeOutRight');
+
+    //         setTimeout(() => {
+    //             onLoad.className = 'hidden';
+    //             contenido.classList.remove('hidden');
+    //             contenido.classList.add('animate__fadeIn');
+
+    //         }, 500);
+    //     }
+
+    // })
+
+    
+    window.onload = ()=>{
+        cargarServicios();
+        contenido.classList.remove('hidden');
+        contenido.classList.add('animate__fadeIn');
+    }
+
+    
+    
+    function redirect(pagina) {
+        let contenido = document.getElementById("contenido");
+        contenido.classList.replace('animate__fadeIn','animate__fadeOut');
+
+        setTimeout(() => {
+             setTimeout(() => {
+                contenido.classList.replace('animate__fadeOut','animate__fadeIn');
+            }, 500);
+            window.location = pagina;
+        }, 600);
+    }
+</script>
+</body>
+
+</html>

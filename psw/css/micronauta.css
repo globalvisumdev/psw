@@ -1,0 +1,110 @@
+/* micronauta Cascading Style Sheet */
+.micronautaPageBODY { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt; color: navy; 
+}
+.micronautaFormTABLE{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: navy;
+	border: 1px solid;
+}
+.micronautaFormHeaderFont{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 9pt;
+   color: navy;
+   font-weight: bold;
+   background-color: #C2C391;
+}
+.micronautaColumnTD {
+	FONT: 12px Arial;
+}
+.micronautaFieldCaptionTD {
+   color: #000000;
+   background-color: #BCCFB1;
+   font-family: Arial, Tahoma, Verdana, Helvetica;
+   font-size: 13px;
+}
+.micronautaDataTD{
+	color: #000000;
+	background-color: #FFFFFF;
+	font-family: Arial, Tahoma, Verdana, Helvetica;
+	font-size: 13px;
+	border: 1px solid;
+}
+.micronautaError { 
+	background-color : #FFFFFF; 
+	color : #cc0000;  
+	font-family : Arial, Tahoma, Verdana, Helvetica; 
+	font-size : 13px;  
+	text-align:center; 
+}
+a.micronautaDataLink:link,a.micronautaDataLink:visited{ 
+	color : #09529A; 
+	text-decoration : none;  
+	font-family : Arial, Tahoma, Verdana, Helvetica; 
+}
+a.micronautaDataLink:hover,a.micronautaDataLink:active{ 
+	color : #cc0000; 
+	text-decoration : underline;  
+	font-family : Arial, Tahoma, Verdana, Helvetica; 
+}
+/* Those ones are for the Paging class */
+.micronautaPagingCurrentPage { 
+	font-weight : bold; 
+	color: #ffffff; 
+	font-size : 14px; 
+	font-family : Arial, Tahoma, Verdana, Helvetica; 
+}
+a.micronautaPagingLink:link,a.micronautaPagingLink:visited{ 
+	color : #ffffff; 
+	text-decoration : underline;  
+	font-family : Arial, Tahoma, Verdana, Helvetica; 
+}
+a.micronautaPagingLink:hover,a.micronautaPagingLink:active{ 
+	color : #F5D3CE; 
+	text-decoration : underline;  
+	font-family : Arial, Tahoma, Verdana, Helvetica; 
+}
+/* Those ones are for the form elements */
+.micronautaButton {
+   border: 1px double #000000;
+   background-color: #8FB56A;
+   font-family: Arial, Tahoma, Verdana, Helvetica;
+}
+.micronautaLinkButton {
+   border: 1px double #000000;
+   background-color: #8FB56A;
+   font-family: Arial, Tahoma, Verdana, Helvetica;
+   text-decoration: none;
+   color: #000000;
+}
+.micronautaSmallButton {
+   border-left: 1px solid #FFFFFF;
+   border-right: 1px solid #000000;
+   border-top: 1px solid #FFFFFF;
+   border-bottom: 1px solid #000000;
+   background-color: #f0f0e0;
+   color: #000000;
+   font-size: 8px;
+   font-family: Tahoma, Verdana, Arial, Helvetica;
+   font-weight: bolder;
+}
+.micronautaInput { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt; 
+	color: navy; 
+	font-weight: bold; 
+}
+.micronautaTextarea { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt; 
+	color: navy; 
+	font-weight: bold; 
+}
+.micronautaSelect { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt; 
+	color: navy; 
+	font-weight: bold; 
+}

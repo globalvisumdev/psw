@@ -1,0 +1,44 @@
+/* LabattBlue Cascading Style Sheet */
+
+/* Author Bulent Tezcan   bulent@greenpepper.ca */
+
+.LabattBluePageBODY{ font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; }
+
+.LabattBlueFormTABLE{ background-color : #79D2E7;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; }
+
+.LabattBlueFormHeaderFont{ color : #022030; font-size : 16px; font-weight : bold;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.LabattBlueColumnTD { color : #000000; background-color : #F5EC62; font-size : 13px; font-weight : bold;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.LabattBlueFieldCaptionTD { color : #000000; background-color : #F3EEAF; font-size : 13px;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.LabattBlueDataTD{ color : #000000; background-color : #FFFFFF; font-size : 13px;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.LabattBlueError { background-color : #FFFFFF; color : #cc0000; font-size : 13px; text-align:center; font-family : Arial, Tahoma, Verdana, Helvetica;}
+
+a.LabattBlueDataLink:link,a.LabattBlueDataLink:visited{ color : #000000; text-decoration : underline; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+a.LabattBlueDataLink:hover,a.LabattBlueDataLink:active{ color : #999999; text-decoration : none; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+/* Those ones are for the form elements */
+
+.LabattBlueButton { border : 1px double #000000; background-color : #FFFFEE; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.LabattBlueLinkButton { border : 1px double #000000; background-color : #FFFFEE; font-family : Arial, Tahoma, Verdana, Helvetica; text-decoration : none; color:#000000;}
+
+.LabattBlueSmallButton { border-left : 1px solid #FFFFFF; border-right : 1px solid #000000; border-top : 1px solid #FFFFFF; border-bottom : 1px solid #000000; background-color : #FFFFEE; color : #000000; font-size : 8px; font-family : Tahoma, Verdana, Arial, Helvetica; font-weight : bolder; }
+
+.LabattBlueInput { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.LabattBlueTextarea { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.LabattBlueSelect { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+/* Those ones are for the Paging class */
+
+.LabattBluePagingCurrentPage { font-weight : bold; color: #050A6D;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 14px; }
+
+a.LabattBluePagingLink:link,a.LabattBluePagingLink:visited{ color : #161EC3; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+a.LabattBluePagingLink:hover,a.LabattBluePagingLink:active{ color : #C31663; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+

@@ -1,0 +1,44 @@
+/* CoorsLight Cascading Style Sheet */
+
+/* Author Bulent Tezcan   bulent@greenpepper.ca */
+
+.CoorsLightPageBODY{  font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px; color:#043A47; }
+
+.CoorsLightFormHeaderFont{ background-color : #BAD4DA; color : #ffffff;  font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 18px;  font-weight : bold; }
+
+.CoorsLightFormTABLE{  font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px; }
+
+.CoorsLightColumnTD{ border : 1px solid #99CCFF; background-color : #81ADB5; color : #FFFFFF; font-weight : bold;  font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px;  }
+
+.CoorsLightFieldCaptionTD{ border : 1px solid #99CCFF; background-color : #BAD4DA; color : #043A47; font-weight : bold;  font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px;  }
+
+.CoorsLightDataTD{ border-left-width : 1px; border-top-width : 1px; border-bottom : 1px solid #E6E6E6; background-color : #F0EEE8;  font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px;  }
+
+.CoorsLightError { font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px;   text-align:center; color: #cc0000; }
+
+a.CoorsLightDataLink:link,a.CoorsLightDataLink:visited{ color : #00008B; text-decoration : underline; font-family : Tahoma, Arial, Verdana, Helvetica;}
+
+a.CoorsLightDataLink:hover,a.CoorsLightDataLink:active{ color : #DC143C; text-decoration : none; font-family : Tahoma, Arial, Verdana, Helvetica; }
+
+/* Those ones are for the form elements */
+
+.CoorsLightButton { border : 1px solid #99CCFF; background-color : #BAD4DA; color : #043A47; font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px; font-weight : bold; }
+
+.CoorsLightLinkButton { border : 1px solid #99CCFF; background-color : #BAD4DA; color : #043A47; font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px; font-weight : bold; }
+
+.CoorsLightSmallButton { border-left : 1px solid #FFFFFF; border-right : 1px solid #000000; border-top : 1px solid #FFFFFF; border-bottom : 1px solid #000000; background-color : #BAD4DA; color : #043A47; font-size : 8px; font-family : Tahoma, Verdana, Arial, Helvetica; font-weight : bolder; }
+
+.CoorsLightInput { background-color : #CFD2E1; font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px; }
+
+.CoorsLightTextarea { background-color : #CFD2E1; border : 1px solid #99CCFF; font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px; }
+
+.CoorsLightSelect { background-color : #CFD2E1; font-family : Tahoma, Arial, Verdana, Helvetica; font-size : 13px; }
+
+/* Those ones are for the Paging class */
+
+.CoorsLightPagingCurrentPage { font-weight : bold; color: #000000;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 14px; }
+
+a.CoorsLightPagingLink:link,a.CoorsLightPagingLink:visited{ color : #000000; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+a.CoorsLightPagingLink:hover,a.CoorsLightPagingLink:active{ color : #cc0000; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+

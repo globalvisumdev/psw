@@ -1,0 +1,42 @@
+/* Guinness  Cascading Style Sheet  */
+
+/* Author Bulent Tezcan   bulent@greenpepper.ca */
+
+.GuinnessPageBODY{ font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; }
+
+.GuinnessFormTABLE{ background-color : #4E261C;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; }
+
+.GuinnessFormHeaderFont{ color : #E6E047; font-size : 16px; font-weight : bold;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.GuinnessColumnTD { color : #CBB37C; background-color : #6F4535;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; font-weight : bold; }
+
+.GuinnessFieldCaptionTD { color : #E9D83A; background-color : #896B5E;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; }
+
+.GuinnessDataTD{ color : #000000; background-color : #CCC4C0;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; }
+
+.GuinnessError { background-color : #BC8574; color : #ffffff;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 13px; text-align:center; }
+
+a.GuinnessDataLink:link,a.GuinnessDataLink:visited{ color : #000000; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+a.GuinnessDataLink:hover,a.GuinnessDataLink:active{ color : #999999; text-decoration : none;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+/* Those ones are for the form elements */
+
+.GuinnessButton { border : 1px double #000000; background-color : #CFC1A0; font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+.GuinnessLinkButton { border : 1px double #000000; background-color : #CFC1A0; font-family : Arial, Tahoma, Verdana, Helvetica; text-decoration : none; color:#000000;}
+
+.GuinnessInput { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; background-color:#D5BFB5; }
+
+.GuinnessTextarea { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; background-color:#D5BFB5;}
+
+.GuinnessSelect { border : 1px double #000000; font-family : Arial, Tahoma, Verdana, Helvetica; background-color:#D5BFB5;}
+
+/* Those ones are for the Paging class */
+
+.GuinnessPagingCurrentPage { font-weight : bold; color: #ffffff;  font-family : Arial, Tahoma, Verdana, Helvetica; font-size : 14px; }
+
+a.GuinnessPagingLink:link,a.GuinnessPagingLink:visited{ color : #CFC1A0; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
+a.GuinnessPagingLink:hover,a.GuinnessPagingLink:active{ color : #ffffff; text-decoration : underline;  font-family : Arial, Tahoma, Verdana, Helvetica; }
+
